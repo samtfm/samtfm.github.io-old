@@ -1,270 +1,70 @@
-<!DOCTYPE HTML>
-<!--
-	Miniport by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Sam Faber-Manning</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sam Faber Manning</title>
+    <script type="text/javascript">
+      var arr = document.title.split('')
+      var shuffled = []
+      while (arr.length ) {shuffled.push(arr.splice(Math.floor(Math.random()*arr.length), 1)[0])}
+      document.title=shuffled.join('')
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-		  ga('create', 'UA-101182308-1', 'auto');
-		  ga('send', 'pageview');
-		</script>
-	</head>
-	<body>
+      ga('create', 'UA-101182308-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <section>
+      <h1>Hi! You've reached <span class='accent'>SamFM</span></h1>
+      <p>Artist, Software Developer, Friend</p>
+    </section>
+    <section>
+      <h1>Would you like to explore some of my projects? You can...</h1>
+      <ul class="links">
+        <li>
+          <span>...trade with </span>
+          <a target="blank" href="http://eggs-nihilo.herokuapp.com/">
+            friendly sewer inhabitants
+          </a>
+          <span> (mobile friendly)<span>
+        </li>
+        <li>
+          <span>...play with a</span>
+          <a target="blank" href="https://samtfm.github.io/in-other-words/">
+            magical fridge thesaurus
+          </a>
+          <span></span>
+        </li>
+        <li>
+          <span>...burn food over a </span>
+          <a target="blank" href="http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=113483">
+            rustic campfire
+          </a>
+          <span></span>
+        </li>
+        <li>
+          <span>...play an artsy set of </span>
+          <a target="blank" href="https://samtfm.itch.io/hoppers/">
+            moody not-games
+          </a>
+        </li>
+      </ul>
+    </section>
 
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#top">Top</a></li>
-					<!-- <li><a href="#work">Work</a></li> -->
-					<li><a href="#portfolio">Portfolio</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="./resume_sam_faber-manning.pdf"
-						target="_blank">Resume</a></li>
-				</ul>
-			</nav>
-
-		<!-- Home -->
-			<div class="wrapper style1 first">
-				<article class="container" id="top">
-					<div class="row">
-						<div class="4u 12u(mobile)">
-							<span class="image fit"><img src="images/sam.png" alt="" /></span>
-						</div>
-						<div class="8u 12u(mobile)">
-							<header>
-								<h1>Hi. I'm <strong>Sam Faber-Manning</strong>.</h1>
-							</header>
-							<p>I am a lover of maths and purveyor of interactive media.
-							</p>
-							<!-- <a href="#work" class="button big scrolly">Learn about what I do</a> -->
-							<a href="#portfolio" class="button big scrolly">See some of my recent work</a>
-						</div>
-					</div>
-				</article>
-			</div>
-
-		<!-- Work -->
-			<!-- <div class="wrapper style2">
-				<article id="work">
-					<header>
-						<h2>Here's all the stuff I do.</h2>
-						<p>Odio turpis amet sed consequat eget posuere consequat.</p>
-					</header>
-					<div class="container">
-						<div class="row">
-							<div class="4u 12u(mobile)">
-								<section class="box style1">
-									<span class="icon featured fa-comments-o"></span>
-									<h3>Consequat lorem</h3>
-									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-								</section>
-							</div>
-							<div class="4u 12u(mobile)">
-								<section class="box style1">
-									<span class="icon featured fa-camera-retro"></span>
-									<h3>Lorem dolor tempus</h3>
-									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-								</section>
-							</div>
-							<div class="4u 12u(mobile)">
-								<section class="box style1">
-									<span class="icon featured fa-thumbs-o-up"></span>
-									<h3>Feugiat posuere</h3>
-									<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-								</section>
-							</div>
-						</div>
-					</div>
-					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#portfolio" class="button big scrolly">See some of my recent work</a>
-					</footer>
-				</article>
-			</div> -->
-			<!-- Portfolio -->
-			<div class="wrapper style3">
-				<article id="portfolio">
-					<header>
-						<h2>Serious Websites</h2>
-						<p>Apps and tools for the modern folk</p>
-					</header>
-					<div class="container">
-						<div class="row">
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="http://www.spreadthejam.net/" class="image featured"><img src="images/jam.png" alt="" /></a>
-									<h3><a href="http://www.spreadthejam.net/">Spread the Jam</a></h3>
-									<p>A meetup app for musicians
-										<br>
-										Ruby on Rails, React, Redux</p>
-								</article>
-							</div>
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="https://samtfm.github.io/in-other-words/" class="image featured"><img src="images/words.png" alt="" /></a>
-									<h3><a href="https://samtfm.github.io/in-other-words/">In Other Words</a></h3>
-									<p>
-										Physics based thesaurus viualization
-										<br>
-										Javascript, HTML5 Canvas</p>
-								</article>
-							</div>
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="https://www.tailor-swift.com/" class="image featured"><img src="images/tailorthumb.png" alt="" /></a>
-									<h3><a href="https://www.tailor-swift.com/">Tailor Swift</a></h3>
-									<p>
-										Uses image processing to generate custom fitted T-shirts
-										<br>
-										Javascript, SVG.js, JSFeat</p>
-								</article>
-							</div>
-						</div>
-						<br><br>
-						<header>
-							<h2>Frivolous Art</h2>
-							<p>Games, not-games and interactive experiences</p>
-						</header>
-						<div class="row">
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=113483" class="image featured"><img src="images/bcbthumb.png" alt="" /></a>
-									<h3><a href="http://ludumdare.com/compo/ludum-dare-36/?action=preview&uid=113483">Backwoods Culinary Basics</a></h3>
-									<p>Co-created for 72 hour game jam
-										<br>
-										Blender, Photoshop, Unity</p>
-								</article>
-							</div>
-							<div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="https://samtfm.itch.io/hoppers" class="image featured"><img src="images/hoppersthumb.png" alt="" /></a>
-									<h3><a href="https://samtfm.itch.io/hoppers">Hoppers</a></h3>
-									<p>
-									 	A collection of interactive vignettes.
-										<br>
-										C#, Unity, Clip Studio Paint</p>
-								</article>
-							</div>
-							<!-- <div class="4u 12u(mobile)">
-								<article class="box style2">
-									<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-									<h3><a href="#">Sed amet ornare</a></h3>
-									<p>Ornare nulla proin odio consequat.</p>
-								</article>
-							</div> -->
-						</div>
-					</div>
-					<footer>
-						<p>Seen enough? Want to see more?</p>
-						<a href="#contact" class="button big scrolly">Get in touch with me</a>
-					</footer>
-				</article>
-			</div>
-
-
-		<!-- Contact -->
-			<div class="wrapper style4">
-				<article id="contact" class="container 75%">
-					<!-- <header>
-						<h2>Let's talk!</h2>
-						<p>Send me a message and I'll get back as soon as I can.</p>
-					</header> -->
-					<div>
-						<div class="row">
-							<div class="12u">
-								<form method="POST" action="https://formspree.io/sfmemail@gmail.com">
-									<input type="text" name="_gotcha" style="display:none" />
-									<div>
-										<div class="row">
-											<div class="6u 12u(mobile)">
-												<input type="text" name="name" id="name" placeholder="Name" />
-											</div>
-											<div class="6u 12u(mobile)">
-												<input type="text" name="email" id="email" placeholder="Email" />
-											</div>
-										</div>
-										<div class="row">
-											<div class="12u">
-												<input type="text" name="subject" id="subject" placeholder="Subject" />
-											</div>
-										</div>
-										<div class="row">
-											<div class="12u">
-												<textarea name="message" id="message" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<div class="row 200%">
-											<div class="12u">
-												<ul class="actions">
-													<li><input type="submit" value="Send Message" /></li>
-													<li><input type="reset" value="Clear Form" class="alt" /></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-						<div class="row">
-							<div class="12u">
-								<hr />
-								<h3>Find me on ...</h3>
-								<ul class="social">
-									<li><a href="https://www.linkedin.com/in/sam-faber-manning/"
-										class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/Samtfm"
-										class="icon fa-github"><span class="label">Github</span></a></li>
-									<!--
-									<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-									<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-									<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
-									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon fa-rss"><span>RSS</span></a></li>
-									<li><a href="#" class="icon fa-instagram"><span>Instagram</span></a></li>
-									<li><a href="#" class="icon fa-foursquare"><span>Foursquare</span></a></li>
-									<li><a href="#" class="icon fa-skype"><span>Skype</span></a></li>
-									<li><a href="#" class="icon fa-soundcloud"><span>Soundcloud</span></a></li>
-									<li><a href="#" class="icon fa-youtube"><span>YouTube</span></a></li>
-									<li><a href="#" class="icon fa-blogger"><span>Blogger</span></a></li>
-									<li><a href="#" class="icon fa-flickr"><span>Flickr</span></a></li>
-									<li><a href="#" class="icon fa-vimeo"><span>Vimeo</span></a></li>
-									-->
-								</ul>
-								<hr />
-							</div>
-						</div>
-					</div>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-				</article>
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <script language="JavaScript">
+      var un = "sfmem" + "ail";
+      var hn = "gm" + "ai" + "l.com";
+      var lt = un + "@" + hn ;
+      document.write("<a class='contact' href='" + "mail" + "to:" + un + "@" + hn + "'>" + "contact me!" + "</a>");
+    </script>
+  </body>
 </html>
