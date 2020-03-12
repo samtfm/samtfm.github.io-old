@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sam Faber Manning</title>
+    <script type="text/javascript">
+      var arr = document.title.split('')
+      var shuffled = []
+      while (arr.length ) {shuffled.push(arr.splice(Math.floor(Math.random()*arr.length), 1)[0])}
+      document.title=shuffled.join('')
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./gallery.css">
+  </head>
+  <body>
+    <section>
+      <h1>You've entered the <span class='accent'>Gallery</span></h1>
+      <p><a href="./index.html">Return home?</a></p>
+    </section>
+    <section id='art-gallery'>
+    </section>
+  </body>
+  <script type="text/javascript">
+    var imageDatas = [
+      ['test.jpg', "Test Image"],
+      ['test.jpg', "Test Image"],
+      ['test.jpg', "Test Image"],
+      ['test.jpg', "Test Image"],
+      ['test.jpg', "Test Image"],
+      ['test.jpg', "Test Image"],
+      ['test.jpg', "Test Image"],
+    ]
+    imageDatas.forEach((imageData, i) => {
+      var newImg = document.createElement("img");
+      newImg.src = "./images/gallery/" + imageData[0]
+      newImg.alt = imageData[1]
+      var link = document.createElement("a");
+      link.href = newImg.src
+      link.appendChild(newImg)
+      document.getElementById("art-gallery").appendChild(link);
+    });
+
+
+  </script>
+
+
+</html>
